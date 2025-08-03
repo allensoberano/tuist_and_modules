@@ -17,49 +17,7 @@
                BlueprintIdentifier = "1E63DC1CCC5B22B03E06E966"
                BuildableName = "Networking.framework"
                BlueprintName = "Networking"
-               ReferencedContainer = "container:Modules/Networking/Networking.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F37FCD8E01CA56BB3BD87FD6"
-               BuildableName = "NetworkingTests.xctest"
-               BlueprintName = "NetworkingTests"
-               ReferencedContainer = "container:Modules/Networking/Networking.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7E32EB6595EA2EC0883298C6"
-               BuildableName = "TuistAndModules.app"
-               BlueprintName = "TuistAndModules"
-               ReferencedContainer = "container:TuistAndModules.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D354E43A3F8DB3D9C4695DCE"
-               BuildableName = "TuistAndModulesTests.xctest"
-               BlueprintName = "TuistAndModulesTests"
-               ReferencedContainer = "container:TuistAndModules.xcodeproj">
+               ReferencedContainer = "container:Networking.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -78,18 +36,7 @@
                BlueprintIdentifier = "F37FCD8E01CA56BB3BD87FD6"
                BuildableName = "NetworkingTests.xctest"
                BlueprintName = "NetworkingTests"
-               ReferencedContainer = "container:Modules/Networking/Networking.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D354E43A3F8DB3D9C4695DCE"
-               BuildableName = "TuistAndModulesTests.xctest"
-               BlueprintName = "TuistAndModulesTests"
-               ReferencedContainer = "container:TuistAndModules.xcodeproj">
+               ReferencedContainer = "container:Networking.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -110,7 +57,7 @@
             BlueprintIdentifier = "1E63DC1CCC5B22B03E06E966"
             BuildableName = "Networking.framework"
             BlueprintName = "Networking"
-            ReferencedContainer = "container:Modules/Networking/Networking.xcodeproj">
+            ReferencedContainer = "container:Networking.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -126,7 +73,7 @@
             BlueprintIdentifier = "1E63DC1CCC5B22B03E06E966"
             BuildableName = "Networking.framework"
             BlueprintName = "Networking"
-            ReferencedContainer = "container:Modules/Networking/Networking.xcodeproj">
+            ReferencedContainer = "container:Networking.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

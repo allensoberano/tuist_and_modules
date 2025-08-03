@@ -1,4 +1,5 @@
 import UIKit
+import Networking
 
 class ViewController: UIViewController {
     
@@ -9,8 +10,10 @@ class ViewController: UIViewController {
     }
     
     private func setupUI() {
+        let networkData = NetworkManager.shared.fetchData()
+        
         let label = UILabel()
-        label.text = "Tuist & Modules"
+        label.text = networkData
         label.textAlignment = .center
         label.font = UIFont.systemFont(ofSize: 24, weight: .bold)
         label.translatesAutoresizingMaskIntoConstraints = false

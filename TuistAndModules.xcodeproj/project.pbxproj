@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		432270C5FF5D2CF23923769D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBA426FEE7184E344849A5 /* AppDelegate.swift */; };
 		539AC49C5DC3AF9D9E1F1142 /* TuistAndModulesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5611EA8FAF6709E43003D23B /* TuistAndModulesTests.swift */; };
+		8984ED228D186FB46133270F /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 830A00E2D3581B34BB02D0D7 /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E17186AD8087A5117ACA99B8 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830A00E2D3581B34BB02D0D7 /* Networking.framework */; };
 		FB08C2859DFF8A5B27998ACE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95BA411D391B8AE145DBA1 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				8984ED228D186FB46133270F /* Networking.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +53,7 @@
 		22EBA426FEE7184E344849A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5611EA8FAF6709E43003D23B /* TuistAndModulesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuistAndModulesTests.swift; sourceTree = "<group>"; };
 		8028B1994FE6827CCCF07267 /* TuistAndModulesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TuistAndModulesTests-Info.plist"; sourceTree = "<group>"; };
+		830A00E2D3581B34BB02D0D7 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		893085C65D3A59F13C89EAED /* TuistAndModulesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuistAndModulesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE95BA411D391B8AE145DBA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E689AE723A12B016086147A5 /* TuistAndModules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuistAndModules.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E17186AD8087A5117ACA99B8 /* Networking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +124,7 @@
 		921A17DA726A7CFB2B55CA55 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				830A00E2D3581B34BB02D0D7 /* Networking.framework */,
 				E689AE723A12B016086147A5 /* TuistAndModules.app */,
 				893085C65D3A59F13C89EAED /* TuistAndModulesTests.xctest */,
 			);
