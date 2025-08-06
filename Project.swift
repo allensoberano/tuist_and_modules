@@ -19,6 +19,7 @@ let project = Project(
             sources: ["TuistAndModules/Sources/**"],
             resources: ["TuistAndModules/Resources/**"],
             dependencies: [
+                .project(target: "NetworkingInterface", path: "Modules/Networking"),
                 .project(target: "Networking", path: "Modules/Networking")
             ]
         ),

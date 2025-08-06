@@ -3,16 +3,31 @@ import ProjectDescription
 let project = Project(
     name: "Networking",
     targets: [
+        // Interface target for build optimization
+        .target(
+            name: "NetworkingInterface",
+            destinations: .iOS,
+            product: .framework,
+            bundleId: "com.example.networking.interface",
+            infoPlist: .default,
+            sources: ["Sources/Interface/**"],
+            resources: [],
+            dependencies: []
+        ),
+        // Implementation target
         .target(
             name: "Networking",
             destinations: .iOS,
             product: .framework,
             bundleId: "com.example.networking",
             infoPlist: .default,
-            sources: ["Sources/**"],
+            sources: ["Sources/Implementation/**"],
             resources: [],
-            dependencies: []
+            dependencies: [
+                .target(name: "NetworkingInterface")
+            ]
         ),
+        // Tests target
         .target(
             name: "NetworkingTests",
             destinations: .iOS,
@@ -21,7 +36,10 @@ let project = Project(
             infoPlist: .default,
             sources: ["Tests/**"],
             resources: [],
-            dependencies: [.target(name: "Networking")]
+            dependencies: [
+                .target(name: "Networking"),
+                .target(name: "NetworkingInterface")
+            ]
         ),
     ]
 )

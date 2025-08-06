@@ -28,6 +28,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C05726E6EC8BDD5745D8E939"
+               BuildableName = "NetworkingInterface.framework"
+               BlueprintName = "NetworkingInterface"
+               ReferencedContainer = "container:Modules/Networking/Networking.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "F37FCD8E01CA56BB3BD87FD6"
                BuildableName = "NetworkingTests.xctest"
                BlueprintName = "NetworkingTests"

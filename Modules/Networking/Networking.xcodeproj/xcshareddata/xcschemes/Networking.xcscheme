@@ -20,6 +20,20 @@
                ReferencedContainer = "container:Networking.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C05726E6EC8BDD5745D8E939"
+               BuildableName = "NetworkingInterface.framework"
+               BlueprintName = "NetworkingInterface"
+               ReferencedContainer = "container:Networking.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
